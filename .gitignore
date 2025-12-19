@@ -1,0 +1,75 @@
+# ==============================
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ==============================
+# Java build outputs
+# ==============================
+target/          # Maven
+build/           # Gradle
+.gradle/
+bin/
+
+# ==============================
+# Java artifacts
+# ==============================
+*.class
+*.jar
+*.war
+*.ear
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# OS junk
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Environment / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+application.properties
+application.yml
+application-*.yml
+application-*.properties
+config.properties
+secrets.*
+*.key
+*.pem
+
+# ==============================
+# Database files (keep SQL scripts, ignore local DB data)
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# MySQL/Postgres local data directories (if you ever created them locally)
+data/
+pgdata/
+mysql-data/
+
+# ==============================
+# Misc
+# ==============================
+*.tmp
+*.swp
+*.bak
+*.zip
+
+/Temp/
+/mysql-connector-j-8.3.0/
